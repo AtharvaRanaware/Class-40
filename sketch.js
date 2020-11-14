@@ -75,8 +75,8 @@ game.play();
         
         game.end();
     }
-    fill ("red");
-    text(mouseX+","+mouseY,mouseX,mouseY);
+    //fill ("red");
+    //text(mouseX+","+mouseY,mouseX,mouseY);
   
 }
 
