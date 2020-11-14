@@ -40,7 +40,9 @@ class Form {
         player.updateCount(0);
         game.update(0);
         Player.updateCarsAtEnd(0);
-
+        database.ref("/").update({
+            players:null
+            )}
 
      // gameState=1;
       })
